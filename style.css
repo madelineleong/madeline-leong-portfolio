@@ -1,9 +1,32 @@
-h1 {
-  color: wheat;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Playfair Display", serif;
+  color: black;
+}
+
+h1 {
+  font-size: 96px;
 }
 
 p {
-  color: whitesmoke;
   font-family: "Poppins", sans-serif;
+  font-weight: light;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+.hero {
+  background-color: #c5ceb9;
+  text-align: center;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
 }
