@@ -67,6 +67,16 @@ p {
   padding: 0 20px;
 }
 
+.content {
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 50px 15px;
+}
+
+.content-container h1 {
+  font-size: 45px;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
