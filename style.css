@@ -72,6 +72,20 @@ p {
   font-size: 45px;
 }
 
+.logo {
+  max-width: 150px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+}
+
+nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
