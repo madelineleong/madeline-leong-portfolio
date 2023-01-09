@@ -83,7 +83,20 @@ nav {
 nav li {
   display: inline;
   list-style: none;
-  line-height: 40px;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+}
+
+nav a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
 }
 
 nav ul {
