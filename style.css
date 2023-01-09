@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #c5ceb9;
+  --primary-color: #eff7f0;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -76,9 +76,14 @@ p {
   max-width: 150px;
 }
 
+nav {
+  padding: 20px 0;
+}
+
 nav li {
   display: inline;
   list-style: none;
+  line-height: 40px;
 }
 
 nav ul {
