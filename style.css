@@ -105,6 +105,7 @@ nav ul {
 }
 
 footer .email-to {
+  display: block;
   text-decoration: none;
   color: black;
   font-size: 24px;
