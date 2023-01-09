@@ -104,6 +104,17 @@ nav ul {
   margin: 0px;
 }
 
+footer .email-to {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-to:hover {
+  color: #b0c1b1;
+}
+
 @media (max-width: 900px) {
   .logo {
     max-width: 80px;
