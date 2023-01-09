@@ -110,10 +110,26 @@ footer .email-to {
   color: black;
   font-size: 24px;
   text-align: center;
+  transition: all 100ms ease-in-out;
 }
 
 footer .email-to:hover {
   color: #b0c1b1;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: #b0c1b1;
+  background-color: var(--primary-color);
+  padding: 10px 12px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: #b0c1b1;
 }
 
 @media (max-width: 900px) {
