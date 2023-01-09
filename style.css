@@ -15,6 +15,11 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-family: var(--heading-font-family);
+  font-size: 68px;
+}
+
 p {
   font-family: var(--default-font-family);
   font-weight: light;
@@ -117,6 +122,13 @@ footer .email-to:hover {
   color: #b0c1b1;
 }
 
+footer .contact-box {
+  background-color: var(--primary-color);
+  padding: 25px 120px;
+  border-radius: 10px;
+  margin: 0px;
+}
+
 footer .social-links a {
   margin: 0 20px;
   color: #b0c1b1;
@@ -125,6 +137,10 @@ footer .social-links a {
   font-size: 18px;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
+}
+
+.contact-button {
+  margin-top: 20px;
 }
 
 footer .social-links a:hover {
@@ -148,5 +164,11 @@ footer .social-links a:hover {
     padding: 0;
     margin: auto 0;
     text-align: center;
+  }
+  footer .contact-box {
+    background-color: var(--primary-color);
+    padding: 25px 20px;
+    border-radius: 10px;
+    margin: 0px;
   }
 }
