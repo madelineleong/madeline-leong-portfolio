@@ -83,8 +83,8 @@ nav {
 nav li {
   display: inline;
   list-style: none;
-  line-height: 42px;
-  margin-left: 15px;
+  line-height: 40px;
+  margin-left: 10px;
 }
 
 nav li.active a {
