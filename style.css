@@ -105,6 +105,12 @@ nav ul {
 }
 
 @media (max-width: 900px) {
+  .logo {
+    max-width: 80px;
+  }
+  nav li {
+    font-size: 14px;
+  }
   .project-description {
     padding: 0;
     margin: auto 0;
