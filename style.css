@@ -87,6 +87,10 @@ nav li {
   margin-left: 15px;
 }
 
+nav li.active a {
+  color: #b0c1b1;
+}
+
 nav a {
   text-decoration: none;
   color: #272142;
